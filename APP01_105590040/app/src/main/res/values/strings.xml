@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APP01_105590040</string>
+    <string name="grade">成績：</string>
+    <string name="input_grade">請輸入成績</string>
+    <string name="btn_grade_trans">成績轉換</string>
+    <string name="level">等第：</string>
+
+</resources>
