@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.edu.ntut.csie.app04_105590040.MainActivity">
+
+    <ListView
+        android:id="@+id/listStu"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:entries="@array/student" />
+
+    <TextView
+        android:id="@+id/txtNotcome"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="@string/not_come"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtStu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:textSize="30sp" />
+</LinearLayout>
